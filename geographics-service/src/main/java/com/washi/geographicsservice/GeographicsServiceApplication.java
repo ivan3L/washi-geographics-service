@@ -1,13 +1,13 @@
-package com.washigeographicsservice.washi;
+package com.washi.geographicsservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WashiGeographicsServiceApplication {
+public class GeographicsServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WashiGeographicsServiceApplication.class, args);
+		SpringApplication.run(GeographicsServiceApplication.class, args);
 	}
 
 }
