@@ -13,7 +13,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@RequestMapping(value = "/departments")
+@RequestMapping(value = "/geographics/departments")
 public class DepartmentController{
 
     @Autowired

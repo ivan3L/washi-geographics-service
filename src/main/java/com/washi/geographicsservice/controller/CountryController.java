@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/countries")
+@RequestMapping(value = "/geographics/countries")
 public class CountryController {
 
     @Autowired

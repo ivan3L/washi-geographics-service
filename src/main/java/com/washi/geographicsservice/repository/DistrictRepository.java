@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface DistrictRepository extends JpaRepository<District,Long> {
-    public District findByDistrictId(Long id);
+    public District findById(String id);
     public List<District> findByName(String name);
     public List<District> findByDepartment(Department department);
 }

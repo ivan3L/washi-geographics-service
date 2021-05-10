@@ -14,7 +14,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@RequestMapping(value = "/districts")
+@RequestMapping(value = "/geographics/districts")
 public class DistrictController{
 
     @Autowired
