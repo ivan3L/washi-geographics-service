@@ -4,6 +4,7 @@ import com.washi.geographicsservice.entity.Department;
 import com.washi.geographicsservice.entity.District;
 import com.washi.geographicsservice.service.DistrictService;
 import com.washi.geographicsservice.service.DistrictService;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +16,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping(value = "/geographics/districts")
+@Api(tags = "Geographics")
 public class DistrictController{
 
     @Autowired

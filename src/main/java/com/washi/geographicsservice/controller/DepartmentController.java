@@ -3,6 +3,7 @@ package com.washi.geographicsservice.controller;
 import com.washi.geographicsservice.entity.Country;
 import com.washi.geographicsservice.entity.Department;
 import com.washi.geographicsservice.service.DepartmentService;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +15,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping(value = "/geographics/departments")
+@Api(tags = "Geographics")
 public class DepartmentController{
 
     @Autowired
